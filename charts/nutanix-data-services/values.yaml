@@ -36,7 +36,7 @@ kubectl:
   # -- Image Repository
   repository: 
   # -- Image tag
-  tag: 1.28.0
+  tag: v1.28.0
   # -- Image digest
   digest: 
   # -- Image pull policy
