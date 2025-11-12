@@ -38,4 +38,36 @@ entries:
     urls:
     - https://github.com/kshitij-kumar-ngt/repository-placeholder/releases/download/ndk-1.3.0/ndk-1.3.0.tgz
     version: 1.3.0
-generated: "2025-10-27T02:59:34.183606022Z"
+  velero:
+  - apiVersion: v1
+    appVersion: 1.5.2
+    created: "2025-11-12T13:23:08.24208145Z"
+    dependencies:
+    - condition: minioBackend
+      name: minio
+      repository: ""
+      version: 8.0.9
+    description: A Helm chart for velero
+    digest: 4406b1f0710d0cc788474d9accaf108ca889fef21e83c64aa2d0021e5c1d0925
+    home: https://github.com/vmware-tanzu/velero
+    icon: https://cdn-images-1.medium.com/max/1600/1*-9mb3AKnKdcL_QD3CMnthQ.png
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: aadnan@vmware.com
+      name: prydonius
+    - email: dlipovetsky@d2iq.com
+      name: dlipovetsky
+    - email: jieyu@d2iq.com
+      name: jieyu
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    urls:
+    - https://github.com/kshitij-kumar-ngt/repository-placeholder/releases/download/velero-3.2.5/velero-3.2.5.tgz
+    version: 3.2.5
+generated: "2025-11-12T13:23:08.242132626Z"
